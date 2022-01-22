@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   background-color: #d9d7f1;
@@ -20,6 +25,44 @@ hr {
   padding: 30px;
   border-radius: 10px;
   margin-top: 22px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: blueviolet;
+  padding: 10px 0px;
+}
+nav div a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #ffff;
+  font-size: 20px;
+}
+nav div img {
+  margin-right: 10px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 16px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+nav li a:hover {
+  color: coral;
 }
 
 .top-players {
@@ -124,17 +167,11 @@ hr {
 .fa-star.empty {
   color: #aeaeae;
 }
-nav ul li {
-  display: flex;
-}
-.logo a img {
-  width: 40.42px;
-  height: 51px;
-}
 
-nav li {
-  list-style: none;
-}
-nav li a {
-  text-decoration: none;
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+  background-color: rgba(0, 0, 139, 0.623);
+  color: #fff;
 }
